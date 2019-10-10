@@ -9,9 +9,18 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/animation_button"
+        android:id="@+id/action_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Animation" />
+
+    <Button
+        android:id="@+id/action_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:text="Bottom Sheet"
+        android:visibility="gone"
+        tools:visibility="visible" />
 
 </LinearLayout>
