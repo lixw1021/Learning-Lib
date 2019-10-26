@@ -1,10 +1,10 @@
-package com.xianwei.leanringlib
+package com.xianwei.learninglib
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.xianwei.leanringlib.lib_android.animation.AnimationTestActivity
-import com.xianwei.leanringlib.lib_android.customview.CustomeViewActivity
+import com.xianwei.learninglib.lib_android.animation.AnimationTestActivity
+import com.xianwei.learninglib.lib_android.customview.CustomViewActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         custom_view_button.setOnClickListener {
-            startActivity(Intent(this, CustomeViewActivity::class.java))
+            startActivity(Intent(this, CustomViewActivity::class.java))
         }
     }
 }

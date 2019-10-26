@@ -1,18 +1,11 @@
-package com.xianwei.leanringlib.lib_android.animation
+package com.xianwei.learninglib.lib_android.animation
 
-import android.animation.Animator
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
-import android.animation.ValueAnimator
-import android.animation.ValueAnimator.REVERSE
 import android.os.Bundle
-import android.view.View.INVISIBLE
-import android.view.animation.Animation
-import android.view.animation.AnimationSet
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.animation.doOnEnd
-import com.xianwei.leanringlib.R
+import com.xianwei.learninglib.R
 import kotlinx.android.synthetic.main.activity_animation_test.*
 
 class AnimationTestActivity : AppCompatActivity() {
