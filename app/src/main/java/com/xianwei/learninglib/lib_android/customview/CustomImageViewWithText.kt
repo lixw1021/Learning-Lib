@@ -40,6 +40,7 @@ class CustomImageViewWithText @JvmOverloads constructor(
             drawText(label, 0, label.length, width - 120f, 60f, paint)
             restore()
         }
+        canvas.drawText("new", 0, 3, width/2f, height/2f, paint)
     }
 
     fun setLabel(label: String) {
