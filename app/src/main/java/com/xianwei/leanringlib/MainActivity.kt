@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.view.View
 import com.xianwei.leanringlib.lib_android.animation.AnimationTestActivity
 import com.xianwei.leanringlib.lib_android.bottomsheet.BottomSheetTestActivity
+import com.xianwei.leanringlib.lib_android.touchsystem.TouchSystemTestActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -22,6 +23,11 @@ class MainActivity : AppCompatActivity() {
         action_button2.visibility = View.VISIBLE
         action_button2.setOnClickListener {
             startActivity(Intent(this, BottomSheetTestActivity::class.java))
+        }
+
+        action_button3.visibility = View.VISIBLE
+        action_button3.setOnClickListener {
+            startActivity(Intent(this, TouchSystemTestActivity::class.java))
         }
     }
 }

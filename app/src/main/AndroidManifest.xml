@@ -18,6 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".lib_android.bottomsheet.BottomSheetTestActivity" />
+        <activity android:name=".lib_android.touchsystem.TouchSystemTestActivity" />
     </application>
 
 </manifest>
