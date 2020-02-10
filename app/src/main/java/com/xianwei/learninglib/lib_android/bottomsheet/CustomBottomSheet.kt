@@ -1,4 +1,4 @@
-package com.xianwei.leanringlib.lib_android.bottomsheet
+package com.xianwei.learninglib.lib_android.bottomsheet
 
 import android.app.Dialog
 import android.os.Bundle
@@ -10,7 +10,7 @@ import android.widget.FrameLayout
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import com.xianwei.leanringlib.R
+import com.xianwei.learninglib.R
 
 class CustomBottomSheet : BottomSheetDialogFragment(){
 

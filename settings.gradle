@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name='Leanring Lib'
+rootProject.name='Learning Lib'

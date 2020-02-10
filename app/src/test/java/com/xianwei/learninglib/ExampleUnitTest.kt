@@ -1,4 +1,4 @@
-package com.xianwei.leanringlib
+package com.xianwei.learninglib
 
 import org.junit.Test
 

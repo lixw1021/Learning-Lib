@@ -1,4 +1,4 @@
-package com.xianwei.leanringlib.lib_joda
+package com.xianwei.learninglib.lib_joda
 
 import org.joda.time.Period
 import org.joda.time.format.PeriodFormat

@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.xianwei.leanringlib"
+        applicationId "com.xianwei.learninglib"
         minSdkVersion 23
         targetSdkVersion 28
         versionCode 1
@@ -33,4 +33,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+
+    implementation "io.reactivex.rxjava3:rxjava:3.0.0-RC4"
+
 }
