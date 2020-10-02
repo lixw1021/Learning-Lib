@@ -52,7 +52,7 @@ class AnimationTestActivity : AppCompatActivity() {
         }
 
         btn_start_animation2.setOnClickListener {
-//            ObjectAnimator.ofFloat(tv_two, "translationY", 300f)
+            //            ObjectAnimator.ofFloat(tv_two, "translationY", 300f)
 //                .apply {
 //                    duration = 1000
 //                    start()
