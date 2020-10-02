@@ -24,19 +24,20 @@
         tools:visibility="visible" />
 
     <Button
-<<<<<<< HEAD
         android:id="@+id/action_button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_medium"
-        android:text="Touch System"
-=======
+        android:text="Touch event"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <Button
         android:id="@+id/custom_view_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_medium"
         android:text="Custom view"
->>>>>>> c97c11e5ce332d8f576103febefceef7780a4c08
         android:visibility="gone"
         tools:visibility="visible" />
 

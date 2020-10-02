@@ -11,6 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+
+        <activity
+            android:name=".lib_android.backstack.Activity1"
+            android:label="@string/title_activity_activity1"></activity>
         <activity android:name=".lib_android.animation.AnimationTestActivity" />
         <activity android:name=".lib_android.customview.CustomViewActivity" />
         <activity android:name=".MainActivity">

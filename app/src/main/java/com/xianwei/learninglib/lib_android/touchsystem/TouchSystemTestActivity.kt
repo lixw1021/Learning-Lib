@@ -1,10 +1,10 @@
-package com.xianwei.leanringlib.lib_android.touchsystem
+package com.xianwei.learninglib.lib_android.touchsystem
 
 import android.os.Bundle
 import android.util.Log
 import android.view.MotionEvent
 import androidx.appcompat.app.AppCompatActivity
-import com.xianwei.leanringlib.R
+import com.xianwei.learninglib.R
 import kotlinx.android.synthetic.main.activity_touch_system.*
 
 class TouchSystemTestActivity : AppCompatActivity() {
