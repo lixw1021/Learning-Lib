@@ -16,6 +16,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
+        <activity android:name=".lib_android.backstack.Activity3"/>
         <activity
             android:name=".lib_android.backstack.Activity2"
             android:label="@string/title_activity_main2"></activity>
