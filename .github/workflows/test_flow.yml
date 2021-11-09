@@ -8,10 +8,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: test
+      - name: setup name
         run: |
-          echo "${NAME////-}"
-          echo ${{ github.ref }}
-
+          echo "BRANCH_NAME=$(${NAME////-})" >> $GITHUB_ENV
+          echo $BRANCH_NAME
         env:
           NAME: ${{ github.event.pull_request.head.ref }}
