@@ -1,0 +1,16 @@
+name: GitHub action test
+
+on:
+  pull_request: null
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: test
+        run: |
+          echo "$NAME"
+
+        env:
+          NAME: ${{ github.event.pull_request.head.ref }}
