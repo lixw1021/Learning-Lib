@@ -1,0 +1,27 @@
+name: GitHub action test
+
+on:
+  pull_request: null
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: setup name
+        run: |
+          echo "${{ env.NAME }}"
+          branch="${BRANCH_NAME////_}"
+          echo "branch_name=$branch" >> $GITHUB_ENV
+          echo "test=testname" >> $GITHUB_ENV
+          echo "$branch"
+        env:
+          NAME: ${{ github.event.pull_request.head.ref }}
+          BRANCH_NAME: ${{ github.head_ref }}
+      - name: use value
+        run: |
+          echo "${{ env.branch_name }}"
+          echo "${{ env.test }}"
+#        env:
+#          NAME: ${{ github.event.pull_request.head.ref }}
+#          BRANCH_NAME: ${{ github.head_ref }}
