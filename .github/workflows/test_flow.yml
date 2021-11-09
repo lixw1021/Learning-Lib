@@ -10,8 +10,8 @@ jobs:
     steps:
       - name: test
         run: |
-          echo "$BRANCH_NAME"
+          echo "Print: $BRANCH_NAME"
 
         env:
           NAME: ${{ github.event.pull_request.head.ref }}
-          BRANCH_NAME: "${NAME////-}"
+          BRANCH_NAME: ${{ NAME }}////-
