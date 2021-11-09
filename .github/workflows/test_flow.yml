@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: test
         run: |
-          echo "$NAME"
+          echo "$NAME////-"
 
         env:
           NAME: ${{ github.event.pull_request.head.ref }}
