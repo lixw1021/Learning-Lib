@@ -13,8 +13,8 @@ jobs:
           echo "$NAME"
           branch="$BRANCH_NAME////_"
           echo "branch_name=$branch" >> $GITHUB_ENV
-          echo ${{ env.branch_name }}
-          echo $branch
+          echo "${{ env.branch_name }}"
+          echo "$branch"
         env:
           NAME: ${{ github.event.pull_request.head.ref }}
           BRANCH_NAME: ${{ github.head_ref }}
