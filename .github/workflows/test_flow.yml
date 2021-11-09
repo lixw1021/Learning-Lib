@@ -15,10 +15,13 @@ jobs:
           echo "branch_name=$branch" >> $GITHUB_ENV
           echo "test=testname" >> $GITHUB_ENV
           echo "$branch"
+        env:
+          NAME: ${{ github.event.pull_request.head.ref }}
+          BRANCH_NAME: ${{ github.head_ref }}
       - name: use value
         run: |
           echo "${{ env.branch_name }}"
           echo "${{ env.test }}"
-        env:
-          NAME: ${{ github.event.pull_request.head.ref }}
-          BRANCH_NAME: ${{ github.head_ref }}
+#        env:
+#          NAME: ${{ github.event.pull_request.head.ref }}
+#          BRANCH_NAME: ${{ github.head_ref }}
