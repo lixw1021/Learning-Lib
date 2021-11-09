@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: setup name
         run: |
-          echo "$NAME"
+          echo "${{ NAME }}"
           branch="${BRANCH_NAME////_}"
           echo "branch_name=$branch" >> $GITHUB_ENV
           echo "test=testname" >> $GITHUB_ENV
